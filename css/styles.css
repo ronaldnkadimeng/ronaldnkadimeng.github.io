@@ -1,7 +1,7 @@
 /*variables*/
 :root {
-  --primary: #ffd97d;
-  --secondary: #0e0446;
+  --primary: #fcc648;
+  --secondary: #220d97;
 }
 /*reset*/
 body,
@@ -25,7 +25,6 @@ body {
 }
 .button {
   background: var(--primary);
-  border: 2px solid var(--secondary);
   color: rgb(24, 21, 21);
   padding: 6px 12px;
   border-radius: 20px;
@@ -40,38 +39,39 @@ body {
 }
 input,
 textarea {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.9);
   padding: 10px 16px;
   border-radius: 20px;
   border: 2px solid #d9d8e7;
-  color: #f2f2f2;
+  color: #272727;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  color: #dddbff;
+  color: rgb(218, 218, 218);
   font-weight: normal;
 }
 p,
 a,
 li {
-  color: #9893d8;
+  color: rgb(218, 218, 218);
 }
+
 h1,
 h3 {
   font-size: 1.3em;
 }
 h2 {
   font-size: 1.5em;
-  padding-top: 30px;
+  padding-top: 100px;
 }
 h4 {
   font-size: 1.1em;
 }
 .leading {
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 /* mobile styles*/
 .grid {
@@ -95,6 +95,8 @@ h4 {
   padding: 0 20px 20px 20px;
 }
 .welcome-text {
+  min-height: 350px;
+
   grid-column: 1/6;
 }
 .welcome-img {
@@ -128,11 +130,12 @@ h4 {
   align-self: center;
 }
 .projects h4 {
-  color: #9994f7;
+  color: rgb(218, 218, 218);
 }
+
 #skills {
   padding: 30px 20px;
-  background: #07083e;
+  background: #1f22ac;
 }
 #skills h3 {
   text-align: center;
@@ -153,7 +156,7 @@ h4 {
 
 #contact {
   padding: 30px 20px;
-  background: #080936;
+  background: #1f22ac;
 }
 #contact h3,
 #contact p {
