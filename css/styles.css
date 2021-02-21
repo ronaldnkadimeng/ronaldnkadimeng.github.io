@@ -65,7 +65,7 @@ h3 {
 }
 h2 {
   font-size: 1.35em;
-  padding-top: 200px;
+  padding-top: 250px;
 }
 h4 {
   font-size: 1.1em;
@@ -93,9 +93,11 @@ h4 {
 }
 #welcome {
   padding: 0 20px 20px 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url("https://lh3.googleusercontent.com/LZiz3mUOB2CyyMkgUeVCOyzQR7-PMOSu75u14dtRfz-oFAncLKctPaoHEdxyGHLKXxaAQmjcwvv5hMOv3DD1vSa14hc82syQIXJ2N05kdmV4-3NvCLVPaZ7AdSXn5k6fr8D9ubT0HR4wjU4MuwTQuDKkkD3sdzB3E5zmw8KfvONELnEfTTTsCa_NUYK4MIchS2SDvCBb8tXB4i1RpFktvTyHd6WxeNwRQ9EmnJGfF8dRV7MpiM5G7ArEDq2MGOKg_2kckCx7AVZJrHk15rmwr3niDNeFm2JVoTdgZbZVK90Ao4lJbMAJHxtUkglrIBjgD6IOv6NkkwAxeM44uoAqeraVJD4pqouR6XbsPemPEdfz4BIrhf8bD-oYck5lOll8Fy-IOtCZtktl_nKMbgPoNh8zzlfl0inqJjGdJMFXJJDFZFsLlE2YXr8QLGLGdT3uuZkeiQpJTX5FeWi016lP2A7NJfnSvXKdH3Nyvh07PoCPAP2HdPs0djh9F85d9xF_NdRfXdBSxBjiSkvOxI_bnvS17XWOJ-ylZgq9Y6tyd_2-d2KHpIhIhM6gR_DIOXgnybN6xQ4vwlShBpOnO7_GdT6kjEGn4i-IAvEgPiBKSocH5tWn-MemST42YSqcQT92feckhZW96ZRWKsTLQUeBggdFGI2fqICIDkVfX5KngFwaNnhAd-wDu4S8-39RkQ=w766-h635-no?authuser=1");
 }
 .welcome-text {
-  min-height: 450px;
+  min-height: 500px;
 
   grid-column: 1/6;
 }
