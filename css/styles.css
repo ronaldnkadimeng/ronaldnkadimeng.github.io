@@ -1,7 +1,7 @@
 /*variables*/
 :root {
   --primary: #fcc648;
-  --secondary: #220d97;
+  --secondary: #351bc7;
 }
 /*reset*/
 body,
@@ -65,7 +65,7 @@ h3 {
 }
 h2 {
   font-size: 1.5em;
-  padding-top: 100px;
+  padding-top: 180px;
 }
 h4 {
   font-size: 1.1em;
@@ -95,7 +95,7 @@ h4 {
   padding: 0 20px 20px 20px;
 }
 .welcome-text {
-  min-height: 350px;
+  min-height: 450px;
 
   grid-column: 1/6;
 }
