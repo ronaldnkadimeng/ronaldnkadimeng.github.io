@@ -66,7 +66,7 @@ h3 {
 }
 h2 {
   font-size: 1.35em;
-  padding-top: 250px;
+  padding-top: 200px;
   color: #fff;
 }
 h4 {
@@ -101,7 +101,7 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
 }
 .welcome-text {
-  min-height: 500px;
+  min-height: 400px;
 
   grid-column: 1/6;
 }
