@@ -1,7 +1,7 @@
 /*variables*/
 :root {
   --primary: #fcc648;
-  --secondary: #351bc7;
+  --secondary: #ececec;
 }
 /*reset*/
 body,
@@ -47,16 +47,17 @@ textarea {
 }
 
 h1,
-h2,
-h3,
+h3 {
+  color: #fff;
+}
 h4 {
-  color: rgb(218, 218, 218);
+  color: rgb(107, 107, 107);
   font-weight: normal;
 }
 p,
 a,
 li {
-  color: rgb(218, 218, 218);
+  color: rgb(107, 107, 107);
 }
 
 h1,
@@ -66,12 +67,16 @@ h3 {
 h2 {
   font-size: 1.35em;
   padding-top: 250px;
+  color: #fff;
 }
 h4 {
   font-size: 1.1em;
 }
 .leading {
   font-size: 0.9em;
+}
+header {
+  background: #1f22ac;
 }
 /* mobile styles*/
 .grid {
@@ -93,8 +98,7 @@ h4 {
 }
 #welcome {
   padding: 0 20px 20px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
-    url("https://lh3.googleusercontent.com/LZiz3mUOB2CyyMkgUeVCOyzQR7-PMOSu75u14dtRfz-oFAncLKctPaoHEdxyGHLKXxaAQmjcwvv5hMOv3DD1vSa14hc82syQIXJ2N05kdmV4-3NvCLVPaZ7AdSXn5k6fr8D9ubT0HR4wjU4MuwTQuDKkkD3sdzB3E5zmw8KfvONELnEfTTTsCa_NUYK4MIchS2SDvCBb8tXB4i1RpFktvTyHd6WxeNwRQ9EmnJGfF8dRV7MpiM5G7ArEDq2MGOKg_2kckCx7AVZJrHk15rmwr3niDNeFm2JVoTdgZbZVK90Ao4lJbMAJHxtUkglrIBjgD6IOv6NkkwAxeM44uoAqeraVJD4pqouR6XbsPemPEdfz4BIrhf8bD-oYck5lOll8Fy-IOtCZtktl_nKMbgPoNh8zzlfl0inqJjGdJMFXJJDFZFsLlE2YXr8QLGLGdT3uuZkeiQpJTX5FeWi016lP2A7NJfnSvXKdH3Nyvh07PoCPAP2HdPs0djh9F85d9xF_NdRfXdBSxBjiSkvOxI_bnvS17XWOJ-ylZgq9Y6tyd_2-d2KHpIhIhM6gR_DIOXgnybN6xQ4vwlShBpOnO7_GdT6kjEGn4i-IAvEgPiBKSocH5tWn-MemST42YSqcQT92feckhZW96ZRWKsTLQUeBggdFGI2fqICIDkVfX5KngFwaNnhAd-wDu4S8-39RkQ=w766-h635-no?authuser=1");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
 }
 .welcome-text {
   min-height: 500px;
@@ -105,13 +109,13 @@ h4 {
   grid-column: 6/9;
 }
 .welcome-img img {
-  width: 200%;
+  width: 400%;
 }
 .welcome-text a {
   margin: 20px 0;
 }
 #portfolio {
-  background: url(assets/square_bg.png);
+  background: #b0b2ac url(images/square_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -137,10 +141,11 @@ h4 {
 
 #skills {
   padding: 30px 20px;
-  background: #1f22ac;
+  background: var(--secondary);
 }
 #skills h3 {
   text-align: center;
+  color: rgb(107, 107, 107);
 }
 #skills ul {
   margin: 40px 0;
@@ -158,7 +163,7 @@ h4 {
 
 #contact {
   padding: 30px 20px;
-  background: #1f22ac;
+  background: #b0b2ac;
 }
 #contact h3,
 #contact p {
@@ -182,7 +187,7 @@ h4 {
 
 footer {
   padding: 30px 20px;
-  background-color: #131346;
+  background-color: var(--primary);
   background-image: url(assets/footer_image.png);
   background-size: 40%;
   background-repeat: no-repeat;
