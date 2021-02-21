@@ -109,7 +109,7 @@ header {
   grid-column: 6/9;
 }
 .welcome-img img {
-  width: 400%;
+  width: 200%;
 }
 .welcome-text a {
   margin: 20px 0;
@@ -194,6 +194,7 @@ footer {
   background-position: top center;
 }
 footer .copyright {
+  color: #fff;
   grid-column: 1/3;
   font-size: 0.8em;
 }
