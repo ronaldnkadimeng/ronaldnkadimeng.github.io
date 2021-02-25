@@ -134,7 +134,7 @@ h4 {
 #skills {
   padding: 10px 10px 10px 10px;
   grid-column: 1/9;
-  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);*/
 }
 #skills h3 {
   text-align: center;
@@ -160,7 +160,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: bottom;
   padding: 30px 20px;
-  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
+  /*box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);*/
 }
 #portfolio h3 {
   margin-bottom: 0;
