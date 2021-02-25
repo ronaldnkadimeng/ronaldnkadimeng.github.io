@@ -225,6 +225,7 @@ footer .social {
 }
 footer li {
   margin: 0 6px;
+  list-style: none;
 }
 footer img {
   width: 20px;
