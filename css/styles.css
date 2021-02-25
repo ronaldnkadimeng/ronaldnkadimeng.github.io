@@ -1,9 +1,8 @@
-/*variables*/
 :root {
-  --primary: #fcc648;
-  --secondary: #ececec;
+  --primary: #e9c46a;
+  --secondary: #f0f0f0;
 }
-/*reset*/
+
 body,
 p,
 a,
@@ -13,13 +12,31 @@ li {
   padding: 0;
   text-decoration: none;
 }
-
-li {
+header {
+  background-color: #2a9d8f;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  box-shadow: 0px 0.5px 1px 0.5px #888;
+}
+.nav-bar ul li {
+  display: none;
   list-style-type: none;
 }
-/*base styles*/
+.logo {
+  padding-left: 20px;
+}
+.logo h1 {
+  padding-bottom: 5px;
+  border-bottom: 3px solid var(--primary);
+  text-transform: uppercase;
+}
+
+.menu img {
+  width: 30%;
+  padding: 27px 10px 10px 30px;
+}
+
 body {
-  background: var(--secondary);
   overflow-x: hidden;
   font-family: sans-serif;
 }
@@ -33,7 +50,7 @@ body {
   display: inline-block;
 }
 .button:hover {
-  color: #fff;
+  color: #333;
   background: var(--secondary);
   border: 2px solid var(--primary);
 }
@@ -46,13 +63,17 @@ textarea {
   color: #272727;
 }
 
-h1,
-h3 {
+h1 {
   color: #fff;
+}
+h2 {
+  color: #fff;
+}
+h3 {
+  color: rgb(107, 107, 107);
 }
 h4 {
   color: rgb(107, 107, 107);
-  font-weight: normal;
 }
 p,
 a,
@@ -60,76 +81,87 @@ li {
   color: rgb(107, 107, 107);
 }
 
-h1,
-h3 {
-  font-size: 1.3em;
+/*Font size*/
+
+h1 {
+  font-size: 1.2em;
 }
 h2 {
-  font-size: 1.35em;
-  padding-top: 200px;
-  color: #fff;
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.6em;
 }
 h4 {
   font-size: 1.1em;
+  font-weight: normal;
 }
 .leading {
   font-size: 0.9em;
 }
-header {
-  background: #1f22ac;
-}
+
 /* mobile styles*/
 .grid {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   gap: 10px;
 }
-.site-nav {
-  margin: 0 20px;
-}
-.site-nav ul {
-  display: none;
-}
-.site-nav h1 {
-  grid-column: 1/4;
-  grid-row: 1;
-  padding-bottom: 10px;
-  border-bottom: 3px solid var(--primary);
-}
+
 #welcome {
-  padding: 0 20px 20px 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  padding: 0px 20px 20px 20px;
+  background: rgba(0, 0, 0, 0.8)
+    url("https://lh3.googleusercontent.com/UD-mBlbPU27OiiHnPqhedclgDGR-N7890AXA0uAOwrBJV-2pcH-eK8p_KSXgEhTWEebdYfFWilBt-T3GC6mR-QgxxHSomFPDrUhAcL-ZBMc4Nmz7-wuNJgPMavltAKnGH75f0aucovuyWZGl_CfaXHadgm0_QLWxsH47q1xMh1dPaGWuuDQvyM2yFTPz8fXvgsBknd_yVFTov7If1WJpvTSBV8vfgAyYeJ5OSSMNraaGTrQ_U2lN4bxQ511tj2LGz6nX_WKY9NSt68m7rJ82z8SJ6t9dc4G47L20qyr6VAJY6FFnxQglyUnAWGsfkVw5SEGXsYGw_FRVDOVneqBEqQicPuvnJaSa1pWdI1O1GjmsFdjkJvhovmeKK1p4etU9PJL-_C8Ivz5qE4NUpAySKaazNRenW41W-eTwSJhhpId6zbOqcT-0TI5TfUidzIJ-FajqlAqvNf_EGamRDoeK2IKW6jeaTmOpSlteDgfUQ7ErTZsNDzeGHElO1ogCdNlxRnpsG1lNX0ROYkxIn4BdAxTej6AgXqsn6vS1sz6jPdyzSCENMhKy_KSCsjYnX0RpTKTZFE3XEIY2tmIkbUMgLECq7Y9xK8ls4H94X50w6NkhXB9E3jJj2s6Ao6pc_zMPVcW3NW_W37ueCX8CCehp4CqJTp8_Ojn3LNhc7CBWqXePt7wSljg9E1-yF9ONjg=w766-h635-no?authuser=1");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
 }
 .welcome-text {
-  min-height: 400px;
-
   grid-column: 1/6;
+  align-self: center;
+  justify-self: start;
 }
-.welcome-img {
-  grid-column: 6/9;
-}
-.welcome-img img {
-  width: 200%;
-}
-.welcome-text a {
-  margin: 20px 0;
-}
+
 #about h3 {
   text-align: center;
-  color: rgb(107, 107, 107);
-  padding: 6px 12px;
+  padding: 20px 0px 0px 0px;
 }
 #about p {
   text-align: center;
-  padding: 6px 20px;
+  padding: 0px 20px 40px 20px;
+}
+
+#skills {
+  padding: 10px 10px 10px 10px;
+  grid-column: 1/9;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
+}
+
+#skills h3 {
+  text-align: center;
+}
+#skills ul {
+  margin: 40px 0;
+  list-style: none;
+}
+#skills li {
+  padding: 10px;
+  background: rgba(114, 82, 82, 0.2);
+  grid-column: span 4;
+  text-align: center;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
+}
+#skills img {
+  height: 80px;
+  margin: 10px auto;
 }
 
 #portfolio {
-  background: #b0b2ac url(images/square_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   padding: 30px 20px;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
 }
 #portfolio h3 {
   margin-bottom: 0;
@@ -149,36 +181,16 @@ header {
   color: rgb(218, 218, 218);
 }
 
-#skills {
-  padding: 30px 20px;
-  background: var(--secondary);
-}
-#skills h3 {
-  text-align: center;
-  color: rgb(107, 107, 107);
-}
-#skills ul {
-  margin: 40px 0;
-}
-#skills li {
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.2);
-  grid-column: span 4;
-  text-align: center;
-}
-#skills img {
-  height: 80px;
-  margin: 10px auto;
-}
-
 #contact {
   padding: 30px 20px;
-  background: #b0b2ac;
+  background: #2a9d8f;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
 }
 #contact h3,
 #contact p {
   text-align: center;
   margin-bottom: 0;
+  color: #fff !important;
 }
 #contact form {
   width: 80%;
@@ -197,7 +209,7 @@ header {
 
 footer {
   padding: 30px 20px;
-  background-color: var(--primary);
+  background-color: #111;
   background-image: url(assets/footer_image.png);
   background-size: 40%;
   background-repeat: no-repeat;
