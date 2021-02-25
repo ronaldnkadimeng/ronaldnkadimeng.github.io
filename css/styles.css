@@ -191,16 +191,16 @@ h4 {
   margin-bottom: 0;
   color: #fff !important;
 }
-#contact h4 {
+#contact .message-me {
   text-align: center;
-  font-size: 20px;
+  font-size: 23px;
   color: #fff;
 }
 #contact .contact-info {
   text-align: center;
 }
 #contact ul li {
-  padding: 5px;
+  padding: 3px;
   list-style: none;
   color: #fff;
 }
