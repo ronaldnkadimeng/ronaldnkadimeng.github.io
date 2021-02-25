@@ -132,14 +132,10 @@ h4 {
 }
 
 #skills {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
   grid-column: 1/9;
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
 }
-#skills .leading {
-  padding-bottom: 10px;
-}
-
 #skills h3 {
   text-align: center;
 }
@@ -155,7 +151,7 @@ h4 {
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
 }
 #skills img {
-  height: 80px;
+  height: 65px;
   margin: 10px auto;
 }
 
