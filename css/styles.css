@@ -132,7 +132,7 @@ h4 {
 }
 
 #skills {
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
   grid-column: 1/9;
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
 }
