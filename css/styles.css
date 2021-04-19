@@ -109,8 +109,7 @@ h4 {
 
 #welcome {
   padding: 0px 20px 20px 20px;
-  background: rgba(0, 0, 0, 0.8)
-    url("https://lh3.googleusercontent.com/UD-mBlbPU27OiiHnPqhedclgDGR-N7890AXA0uAOwrBJV-2pcH-eK8p_KSXgEhTWEebdYfFWilBt-T3GC6mR-QgxxHSomFPDrUhAcL-ZBMc4Nmz7-wuNJgPMavltAKnGH75f0aucovuyWZGl_CfaXHadgm0_QLWxsH47q1xMh1dPaGWuuDQvyM2yFTPz8fXvgsBknd_yVFTov7If1WJpvTSBV8vfgAyYeJ5OSSMNraaGTrQ_U2lN4bxQ511tj2LGz6nX_WKY9NSt68m7rJ82z8SJ6t9dc4G47L20qyr6VAJY6FFnxQglyUnAWGsfkVw5SEGXsYGw_FRVDOVneqBEqQicPuvnJaSa1pWdI1O1GjmsFdjkJvhovmeKK1p4etU9PJL-_C8Ivz5qE4NUpAySKaazNRenW41W-eTwSJhhpId6zbOqcT-0TI5TfUidzIJ-FajqlAqvNf_EGamRDoeK2IKW6jeaTmOpSlteDgfUQ7ErTZsNDzeGHElO1ogCdNlxRnpsG1lNX0ROYkxIn4BdAxTej6AgXqsn6vS1sz6jPdyzSCENMhKy_KSCsjYnX0RpTKTZFE3XEIY2tmIkbUMgLECq7Y9xK8ls4H94X50w6NkhXB9E3jJj2s6Ao6pc_zMPVcW3NW_W37ueCX8CCehp4CqJTp8_Ojn3LNhc7CBWqXePt7wSljg9E1-yF9ONjg=w766-h635-no?authuser=1");
+  background: rgba(0, 0, 0, 0.2) url("https://icecube-eu-288.icedrive.io/thumbnail?p=dwiEDSYKNHyOP11llri84WzF88NgMJC9T8Wkh8rnSeSxSsOzyr9JXm.Kz8uTKLwylvUgBU6_JYVO9WRguxD0y2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +119,9 @@ h4 {
   grid-column: 1/6;
   align-self: center;
   justify-self: start;
+  padding-top: 150px;
 }
+
 #about {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
