@@ -35,6 +35,7 @@ label.logo{
   font-weight: bold;
   text-decoration: underline;
   text-decoration-color: var(--primary);
+
 }
 .nav-bar ul{
   float: right;
