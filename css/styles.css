@@ -296,7 +296,7 @@ footer li {
   list-style: none;
 }
 footer img {
-  width: 20px;
+  width: 30px;
 }
 /* desktop */
 @media only screen and (min-width: 952px) {
@@ -351,6 +351,9 @@ footer img {
   .projects a h4{
     font-size: 20px;
     text-decoration: underline;
+  }
+  footer img {
+    width: 40px;
   }
 }
 
