@@ -3,18 +3,6 @@
   --secondary: #f0f0f0;
 }
 
-/*body,
-p,
-a,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}*/
-
 * {
   margin: 0;
   padding: 0;
@@ -22,23 +10,20 @@ li {
   list-style: none;
   box-sizing: border-box;
 }
-
 body{
   font-family: monospace;
 }
-
-
-/*header {
-  background-color: #2a9d8f;
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  box-shadow: 0px 0.5px 1px 0.5px #888;
-}*/
-
 .nav-bar{
   background:#2a9d8f;
   height: 80px;
   width: 100%;
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+}
+
+.main{
+  margin-top: 80px;
 }
 
 label.logo{
@@ -142,9 +127,9 @@ h4 {
 }
 .leading {
   font-size: 0.85em;
+  padding-top: 5px;
 }
 
-/* mobile styles*/
 .grid {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -176,7 +161,7 @@ h4 {
 }
 #about p {
   text-align: center;
-  padding: 0px 20px 40px 20px;
+  padding: 20px 20px 40px 20px;
 }
 
 #skills {
@@ -184,6 +169,7 @@ h4 {
   grid-column: 1/9;
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
 }
+
 #skills h3 {
   text-align: center;
 }
@@ -246,20 +232,24 @@ h4 {
 }
 #contact .contact-info {
   text-align: center;
+  padding-bottom: 15px;
 }
 #contact ul li {
   padding: 3px;
   list-style: none;
   color: #fff;
+  padding-bottom: 5px;
 }
 #contact h3 {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 #contact form {
-  width: 80%;
+  width: 100%;
   max-width: 400px;
   margin: 0px 20px 0px 20px;
   text-align: center;
+  position: relative;
+    bottom: 10px;
 }
 #contact input,
 #contact textarea {
@@ -291,7 +281,7 @@ footer li {
 footer img {
   width: 20px;
 }
-/*small tablets styles*/
+
 @media (min-width: 952px) {
   label.logo{
     font-size: 30px;
@@ -299,7 +289,26 @@ footer img {
   }
   .nav-bar ul li a{
     font-size: 16px;
-  } 
+  }
+  #skills li {
+    padding: 10px;
+    background: rgba(71, 65, 65, 0.15);
+    grid-column: span 2;
+    text-align: center;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
+  }
+  #contact form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    bottom: 10px;
+  }
+  #contact h3{
+    padding-top: 15px;
+  }
 }
 
 @media (max-width: 858px){
@@ -328,5 +337,4 @@ footer img {
   #check:checked ~ ul{
     left: 0;
   }
-
 }
