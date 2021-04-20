@@ -139,7 +139,7 @@ h4 {
 
 #welcome {
   padding: 0px 20px 20px 20px;
-  background: rgba(0, 0, 0, 0.2) url("https://icecube-eu-288.icedrive.io/thumbnail?p=dwiEDSYKNHyOP11llri84WzF88NgMJC9T8Wkh8rnSeSxSsOzyr9JXm.Kz8uTKLwylvUgBU6_JYVO9WRguxD0y2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+  background: linear-gradient( rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.5)), url("https://icecube-eu-288.icedrive.io/thumbnail?p=dwiEDSYKNHyOP11llri84WzF88NgMJC9T8Wkh8rnSeSxSsOzyr9JXm.Kz8uTKLwylvUgBU6_JYVO9WRguxD0y2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -299,14 +299,15 @@ footer img {
     grid-column: span 2;
     text-align: center;
     box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
+    margin: 0;
   }
   #contact form {
-    width: 100%;
-    max-width: 400px;
+    width: 90%;
+    max-width: 600px;
     margin: 0px 20px 0px 20px;
     text-align: center;
     position: relative;
-    left: 35%;
+    left: 17%;
     bottom: 10px;
   }
   #contact h3{
@@ -321,8 +322,8 @@ footer img {
   .nav-bar ul{
     position: fixed;
     width: 100%;
-    height: 100vh;
-    background: rgb(78, 78, 78);
+    height: 70vh;
+    background: rgb(26, 26, 26);
     top: 80px;
     left: -100%;
     text-align: center;
