@@ -229,6 +229,9 @@ h4 {
 .projects h4 {
   color: rgb(218, 218, 218);
 }
+.projects a h4{
+  color: rgb(156, 156, 156);
+}
 
 #contact {
   padding: 30px 20px;
@@ -344,6 +347,10 @@ footer img {
   }
   .button {
     padding: 12px 22px;
+  }
+  .projects a h4{
+    font-size: 20px;
+    text-decoration: underline;
   }
 }
 
