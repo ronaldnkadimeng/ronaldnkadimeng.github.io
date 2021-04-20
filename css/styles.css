@@ -244,7 +244,7 @@ h4 {
   padding-bottom: 15px;
 }
 #contact form {
-  width: 100%;
+  width: 80%;
   max-width: 400px;
   margin: 0px 20px 0px 20px;
   text-align: center;
@@ -281,7 +281,7 @@ footer img {
   width: 20px;
 }
 
-@media (min-width: 952px) {
+@media only screen and (min-width: 952px) {
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -297,12 +297,12 @@ footer img {
     box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.05);
   }
   #contact form {
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     margin: 0px 20px 0px 20px;
     text-align: center;
     position: relative;
-    left: 30%;
+    left: 35%;
     bottom: 10px;
   }
   #contact h3{
