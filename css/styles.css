@@ -3,7 +3,7 @@
   --secondary: #f0f0f0;
 }
 
-body,
+/*body,
 p,
 a,
 ul,
@@ -11,29 +11,73 @@ li {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-header {
+
+body{
+  font-family: monospace;
+}
+
+
+/*header {
   background-color: #2a9d8f;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   box-shadow: 0px 0.5px 1px 0.5px #888;
-}
-.nav-bar ul li {
-  display: none;
-  list-style-type: none;
-}
-.logo {
-  padding-left: 20px;
-}
-.logo h1 {
-  padding-bottom: 5px;
-  border-bottom: 3px solid var(--primary);
-  text-transform: uppercase;
+}*/
+
+.nav-bar{
+  background:#2a9d8f;
+  height: 80px;
+  width: 100%;
 }
 
-.menu img {
-  width: 45%;
-  padding: 30px 10px 10px 10px;
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+.nav-bar ul{
+  float: right;
+  margin-right: 20px;
+}
+.nav-bar ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+.nav-bar ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active, a:hover{
+  background: #34beae;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
 }
 
 body {
@@ -248,17 +292,41 @@ footer img {
   width: 20px;
 }
 /*small tablets styles*/
-@media screen and (min-width: 620px) {
-}
-/*large tablets & laptop styles*/
-@media screen and (min-width: 960px) {
-  body {
-    font-size: 18px;
+@media (min-width: 952px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
   }
+  .nav-bar ul li a{
+    font-size: 16px;
+  } 
 }
-/*desktop styles*/
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: 20px;
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
   }
+  .nav-bar ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(78, 78, 78);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  .nav-bar ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .nav-bar a:hover, .nav-bar a.active{
+    background:none;
+    color: #2a9d8f;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
 }
