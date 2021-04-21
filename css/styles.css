@@ -375,6 +375,18 @@ footer img {
   }
 }
 
+@media only screen and (min-width: 1024px){
+  #contact form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
+    position: relative;
+    left: 16%;
+    bottom: 10px;
+  }
+}
+
 @media (max-width: 858px){
   .checkbtn{
     display: block;
