@@ -323,11 +323,15 @@ footer img {
     margin: 0px 20px 0px 20px;
     text-align: center;
     position: relative;
-    left: 35%;
+    left: 32%;
     bottom: 10px;
   }
   #contact h3{
     padding-top: 15px;
+    padding-right: 70px;
+  }
+  #contact .contact-info{
+    padding-right: 80px;
   }
   .welcome-text {
     grid-column: 3/8;
