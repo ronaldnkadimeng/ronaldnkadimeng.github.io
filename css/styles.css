@@ -318,13 +318,9 @@ footer img {
     margin: 10px 20px 10px 20px;
   }
   #contact form {
-    width: 100%;
-    max-width: 600px;
-    margin: 0px 20px 0px 20px;
     text-align: center;
-    position: relative;
-    left: 32%;
-    bottom: 10px;
+    padding-left: 370px;
+    padding-right: 350px;
   }
   #contact h3{
     padding-top: 15px;
@@ -372,18 +368,6 @@ footer img {
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-  }
-}
-
-@media only screen and (min-width: 1024px){
-  #contact form {
-    width: 100%;
-    max-width: 600px;
-    margin: 0px 20px 0px 20px;
-    text-align: center;
-    position: relative;
-    left: 16%;
-    bottom: 10px;
   }
 }
 
