@@ -142,7 +142,7 @@ h4 {
 
 #welcome {
   padding: 0px 20px 20px 20px;
-  background: linear-gradient( rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.5)), url("https://icecube-eu-288.icedrive.io/thumbnail?p=dwiEDSYKNHyOP11llri84WzF88NgMJC9T8Wkh8rnSeSxSsOzyr9JXm.Kz8uTKLwylvUgBU6_JYVO9WRguxD0y2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
+  background: linear-gradient( rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.5)), url("https://icecube-eu-288.icedrive.io/thumbnail?p=dwiEDSYKNHyOP11llri84WzF88NgMJC9T8Wkh8rnSeSxSsOzyr9JXm.Kz8uTKLwylvUgBU6_JYVO9WRguxD0y2JjIueBzPUfljoMuTeVKtLgvTAHvNnEiQj9Tev8ouoq&w=1024&h=1024&m=cropped");
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
