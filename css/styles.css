@@ -408,7 +408,7 @@ footer img {
   }
   footer .copyright {
     color: #fff;
-    grid-column: 2/8;
+    grid-column: 1/9;
     font-size: 0.85em;
     padding-left: 25px;
   }
@@ -416,6 +416,5 @@ footer img {
     grid-column: 3/7;
     display: flex;
     justify-content: flex-end;
-    padding-right: 10px;
   }
 }
