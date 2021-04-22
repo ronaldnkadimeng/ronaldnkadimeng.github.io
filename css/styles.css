@@ -323,6 +323,9 @@ footer img {
     padding-left: 270px;
     padding-right: 250px;
   }
+  #contact form .button {
+    font-size: 20px;
+  }
   #contact h3{
     padding-top: 15px;
     padding-right: 70px;
@@ -338,10 +341,10 @@ footer img {
     padding-right: 220px;
   }
   .welcome-text h2{
-    font-size: 50px;
+    font-size: 55px;
   }
   .welcome-text p{
-    font-size: 40px;
+    font-size: 50px;
   }
   .welcome-text a{
     font-size: 22px;
@@ -360,13 +363,13 @@ footer img {
   }
   footer img {
     width: 45px;
-    padding-top: 10px;
+    padding-top: 5px;
   }
   h3 {
     font-size: 2.4em;
   }
   h4 {
-    font-size: 1.6em;
+    font-size: 1.7em;
     font-weight: normal;
   }
   .about-text p{
