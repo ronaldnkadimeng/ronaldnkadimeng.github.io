@@ -402,4 +402,20 @@ footer img {
     position: relative;
     right: 70px;
   }
+  footer img {
+    width: 30px;
+    padding-top: 20px;
+  }
+  footer .copyright {
+    color: #fff;
+    grid-column: 2/8;
+    font-size: 0.85em;
+    padding-left: 25px;
+  }
+  footer .social {
+    grid-column: 3/7;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
 }
