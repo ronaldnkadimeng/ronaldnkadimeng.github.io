@@ -338,13 +338,13 @@ footer img {
     padding-right: 220px;
   }
   .welcome-text h2{
-    font-size: 40px;
+    font-size: 50px;
   }
   .welcome-text p{
-    font-size: 35px;
+    font-size: 40px;
   }
   .welcome-text a{
-    font-size: 19px;
+    font-size: 22px;
   }
   #welcome {
     background-size:cover;
@@ -352,23 +352,46 @@ footer img {
     min-height: 100vh;
   }
   .button {
-    padding: 16px 32px;
+    padding: 28px 56px;
   }
   .projects a h4{
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: underline;
   }
   footer img {
-    width: 40px;
+    width: 45px;
+    padding-top: 10px;
   }
   h3 {
-    font-size: 1.9em;
+    font-size: 2.4em;
+  }
+  h4 {
+    font-size: 1.6em;
+    font-weight: normal;
   }
   .about-text p{
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
+  }
+  .leading {
+    font-size: 1.4em;
+    padding-top: 5px;
+  }
+  footer .copyright {
+    color: #fff;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  footer .social {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+  #contact .message-me {
+    font-size: 40px;
   }
 }
 
