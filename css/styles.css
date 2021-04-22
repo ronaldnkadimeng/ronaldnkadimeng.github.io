@@ -123,14 +123,14 @@ h2 {
   font-size: 1.8em;
 }
 h3 {
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 h4 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: normal;
 }
 .leading {
-  font-size: 0.85em;
+  font-size: 1em;
   padding-top: 5px;
 }
 
@@ -252,6 +252,7 @@ h4 {
 #contact .contact-info {
   text-align: center;
   padding-bottom: 15px;
+  font-size: 18px;
 }
 #contact ul li {
   padding: 3px;
