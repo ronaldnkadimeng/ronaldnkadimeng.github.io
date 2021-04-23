@@ -444,4 +444,7 @@ footer img {
     display: flex;
     justify-content: flex-end;
   }
+  .about-text p{
+    font-size: 21px;
+  }
 }
