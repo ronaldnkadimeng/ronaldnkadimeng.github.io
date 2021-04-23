@@ -385,14 +385,14 @@ footer img {
   footer .copyright {
     color: #fff;
     font-size: 1.5em;
-    padding-left: 450px;
+    padding-left: 200px;
     padding-top: 20px;
   }
   footer .social {
     display: flex;
     justify-content: flex-end;
     padding-bottom: 10px;
-    padding-right: 500px;
+    padding-right: 200px;
   }
   #contact .message-me {
     font-size: 40px;
